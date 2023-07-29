@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    font-family: montserrat, roboto, sans-serif;
+
+
+}
+
+#home-page-screen{
+
+    width:100%;
+    height:10200px;
+    /* border: 2px solid red; */
+}
+
+#navbar {
+
+    width:100%;
+    height:155px;
+    /* border: 2px solid green; */
+}
+
+#navbar-top{
+    width:100%;
+    height: 30px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee;
+    text-align:center;
+}
+
+
+.header-Links {
+    font-size: 10px;
+    margin: 8px;
+    font-family: sans-serif;
+    color: rgba(0,0,0,.8);
+}
+
+#mobile-icon {
+margin-top: 10px;
+margin-right: -5px;
+text-align: center;
+
+}
+
+
+
+#navbar-middle {
+    width:100%;
+    height: 65px;
+    /* border: 1px solid blue; */
+   
+
+}
+
+#navbar-middle > div {
+    width: 60%;
+    height:65px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    /* background-color: gray; */
+    text-align:center;
+}
+
+.navbar-middle-menu {
+    padding: 0px, 11px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 20px;
+    letter-spacing: 1px;
+
+}
+
+#navbar-searchbox {
+    margin-top: 5px;
+    width:35%;
+    height:50px;
+    border-radius: 5px;
+    background-color: #eaeaea;
+    /* border: 1px solid black  */
+}
+
+#navbar-searchbox > input {
+        background-color: #eaeaea;
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 320px;
+        height: 25px;
+        border: none;
+        outline: none;
+        
+
+}
+
+#navbar-middle-right {
+    width:15%;
+    height:18px;
+    border-left:1px solid #b2b2b2;
+    margin-top:15px;
+    margin-left:5px;
+    color:#0e0e0e;
+    display:flex;
+    justify-content: space-evenly;
+    text-align:center;
+    padding:5px;
+    cursor:pointer;
+
+}
+
+
+
+
+
+#navbar-bottom {
+
+    width:65%;
+    height: 54px;
+    /* border: 1px solid blue; */
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    text-align:center;
+}
+
+.tab-nav{
+    width:100%;
+    color: #0e0e0e;
+    padding: 15px;
+    cursor: pointer;
+
+    
+}
+
+#body{
+    width:100%;
+    height:7250px;
+    /* border: 5px solid purple; */
+}
+
+#home-body{
+width: 100%;
+height: 620px;
+/* border: 5px solid black; */
+display: flex;
+justify-content: space-around;
+}
+
+#home-body img{
+    width: 98%;
+}
+
+#home-body-categories {
+    width:60%;
+    height: 200px;
+    margin:auto;
+    /* border: 5px solid green; */
+    display:flex;
+    justify-content: space-around;
+    text-align:center;
+    font-size:11px;
+    color: #000000;
+    padding: 10px;
+}
+#home-body-categories img{
+    width:100%;
+    height:80%;
+}
+
+#home-body-categories p{
+    margin-top: 10px;
+}
+
+#home-body-features {
+    width: 100%;
+    height: 150px;
+    border: 1px solid blue;
+    margin-top: 50px;
+}
+
+#home-body-features img{
+    width:100%;
+    height:100%
+}
+
+#home-design-of-week {
+    width: 100%;
+    height: 550px;
+   /* border: 1px solid green; */
+   margin-top: 10px;
+   display:flex;
+   justify-content: space-around;
+   cursor: pointer;
+}
+
+#home-design-of-week div{
+    width:100%
+}
+#home-design-of-week img{
+    width:100%;
+}
+
+
+#home-trending-categories {
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    display:flex;
+    justify-content: space-around;
+    cursor:pointer;
+}
+
+
+#img-box-container-4 {
+    width: 100%;
+    height: 1150px;
+    /* border:1px solid blue; */
+    margin-top: 20px;
+    text-align:center;
+    padding:5px;
+}
+
+#img-box-container-4 h3 {
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 2px;
+}
+
+#pics-box-4{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+   
+}
+
+#pics-box-4 div{
+    width:50%;
+}
+
+#pics-box-4 img{
+    width:100%;
+}
+
+
+#visual-search{
+
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid purple; */
+    margin-top: 30px;
+    display:flex;
+}
+#visual-search div{
+    width:100%;
+}
+#visual-search img{
+    width:100%;
+}
+
+#visual-search-pics{
+
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid purple; */
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#visual-search-pics div{
+    width:100%;
+}
+#visual-search-pics img{
+    width:80%;
+}
+
+#home-body-footer {
+    width: 100%;
+    height: 2500px;
+    margin-top:10px;
+    /* border:2px solid black; */
+    background-color: #181818;
+
+}
+
